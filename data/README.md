@@ -25,4 +25,4 @@ Business hypothesis:
 Improving onboarding communication or introducing a limited free trial 
 could increase subscription conversion.
 
-Additional metric: Day 1 retention ~ XX%
+Additional metric: Day 1 retention ~ 32%
