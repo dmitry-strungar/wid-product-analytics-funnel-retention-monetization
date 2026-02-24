@@ -31,6 +31,7 @@ Additional metric: Day 1 retention ~ 32%
 
 The funnel and retention metrics were visualized in Yandex DataLens.
 
-WID Dashboard
+WID Dashboard:
+
 <img width="2560" height="1440" alt="24-02-2026 14-05-54" src="https://github.com/user-attachments/assets/86340fdc-70f4-440c-bc37-8ef9065d9757" />
 
