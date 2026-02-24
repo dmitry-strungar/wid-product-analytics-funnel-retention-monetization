@@ -1,10 +1,10 @@
 # WID Product Analytics: Funnel, Retention & Monetization
 
 ## 📌 Project Overview
-This project presents a comprehensive product analytics analysis of the WID digital wardrobe service.  
-The analysis focuses on user funnel performance, retention metrics, acquisition channels efficiency, and monetization A/B testing.
+This project provides a comprehensive analysis of the product analytics of the WID digital wardrobe service.
+The analysis focuses on the effectiveness of the user chain, retention rates, effectiveness of attraction channels, and A/B testing of monetization.
 
-The project simulates a real-world product analytics case where the business needs to identify revenue growth opportunities and optimize user conversion.
+The project is a real product analysis task when a business needs to identify revenue growth opportunities and optimize user conversion.
 
 ---
 
