@@ -24,3 +24,5 @@ indicating potential issues with value perception or pricing.
 Business hypothesis:
 Improving onboarding communication or introducing a limited free trial 
 could increase subscription conversion.
+
+Additional metric: Day 1 retention ~ XX%
