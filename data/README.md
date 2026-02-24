@@ -1,8 +1,7 @@
 # Data
 
-This folder contains raw and processed datasets used in the analysis.
-
-Raw data is not included due to confidentiality.
+For confidentiality reasons, original datasets are not included.
+SQL queries are written against a simulated schema.
 
 ## Implementation Notes
 
