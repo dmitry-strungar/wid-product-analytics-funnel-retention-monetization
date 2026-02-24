@@ -1,7 +1,10 @@
 # Data
 
-For confidentiality reasons, original datasets are not included.
-SQL queries are written against a simulated schema.
+This project is a real product analysis task.
+
+For privacy reasons, the original datasets are not included.
+
+SQL queries are written based on a simulated warehouse schema.
 
 ## Implementation Notes
 
