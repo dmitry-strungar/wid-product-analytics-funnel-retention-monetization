@@ -1,10 +1,10 @@
-- Funnel Construction Query
-- Product: WID Digital Wardrobe
-- Stages: Visit → Registration → Activity → Subscription
+-- Funnel Construction Query
+-- Product: WID Digital Wardrobe
+-- Stages: Visit → Registration → Activity → Subscription
 
 
-This query builds the full user funnel and calculates
-conversion rates between each stage.
+-- This query builds the full user funnel and calculates
+-- conversion rates between each stage.
 
 
 WITH visits AS (
