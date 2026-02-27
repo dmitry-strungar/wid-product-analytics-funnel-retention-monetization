@@ -1,6 +1,6 @@
 # WID Product Analytics: Funnel, Retention & Monetization
 
-## 📌 Project Overview
+## Project Overview
 This project provides a comprehensive analysis of the product analytics of the WID digital wardrobe service.
 The analysis focuses on the effectiveness of the user chain, retention rates, effectiveness of attraction channels, and A/B testing of monetization.
 
@@ -8,7 +8,7 @@ The project is a real product analysis task when a business needs to identify re
 
 ---
 
-## 🎯 Business Context
+## Business Context
 The company aims to:
 
 - Identify drop-off points in the user funnel
@@ -18,7 +18,7 @@ The company aims to:
 
 ---
 
-## 📊 Objectives
+## Objectives
 
 - Build full user funnel (Visit → Registration → Activity → Subscription)
 - Calculate DAU / WAU / MAU
@@ -28,7 +28,7 @@ The company aims to:
 
 ---
 
-## 🔎 Analytical Approach
+## Analytical Approach
 
 - Funnel construction and conversion rate analysis
 - Cohort retention modeling
@@ -38,7 +38,7 @@ The company aims to:
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 
 - Major user drop-off occurs at the monetization stage
 - User activity frequency strongly correlates with subscription probability
@@ -47,7 +47,7 @@ The company aims to:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Excel
 - Yandex DataLens
@@ -57,7 +57,7 @@ The company aims to:
 
 ---
 
-## 💼 Skills Demonstrated
+## Skills Demonstrated
 
 - Product funnel analysis
 - Retention modeling
