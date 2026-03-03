@@ -1,10 +1,10 @@
--- Funnel Construction Query
--- Product: WID Digital Wardrobe
--- Stages: Visit → Registration → Activity → Subscription
+-- Запрос по построению воронки продаж
+-- Продукт: Цифровой гардероб WID
+-- Этапы: Посещение → Регистрация → Активность → Подписка
 
 
--- This query builds the full user funnel and calculates
--- conversion rates between each stage.
+-- Этот запрос строит полную воронку продаж и вычисляет
+-- коэффициенты конверсии между каждым этапом
 
 
 WITH visits AS (
