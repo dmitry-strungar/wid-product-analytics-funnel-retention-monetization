@@ -1,5 +1,5 @@
--- A/B Test Analysis: Monetization Scenario
--- Product: WID Digital Wardrobe
+-- Анализ A/B-тестирования: сценарий монетизации
+-- Продукт: Цифровой гардероб WID
 
 WITH experiment_data AS (
     SELECT
