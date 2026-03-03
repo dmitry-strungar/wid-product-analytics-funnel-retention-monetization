@@ -1,61 +1,68 @@
-# Data
+## Данные
 
-This project is a real product analysis task.
+Проект представляет собой задачу по продуктовой аналитике.
 
-For privacy reasons, the original datasets are not included.
+Для первичного анализа использовались исходные данные в формате Excel.
 
-SQL queries are written based on a simulated warehouse schema.
+SQL-запросы были написаны на основе смоделированной структуры хранилища данных.
 
-## Implementation Notes
+---
 
-**Original implementation:** Excel + Yandex DataLens  
-**Extended analytical layer:** SQL-based warehouse simulation
+## Примечания по реализации
 
-## Key Findings (Simulated Results)
+Исходная реализация: Excel + Yandex DataLens  
+Расширенная аналитическая часть: SQL (моделирование хранилища данных)
 
-Based on the simulated funnel analysis:
+---
 
-- Visit → Registration conversion: ~42%
-- Registration → Activity conversion: ~65%
-- Activity → Subscription conversion: ~18%
+## Ключевые результаты (смоделированные данные)
 
-Key bottleneck identified:
-The largest drop occurs at the Activity → Subscription stage, 
-indicating potential issues with value perception or pricing.
+На основе анализа смоделированного набора данных:
 
-Business hypothesis:
-Improving onboarding communication or introducing a limited free trial 
-could increase subscription conversion.
+- Конверсия Visit → Registration: ~69%  
+- Конверсия Registration → Activity: ~95%  
+- Конверсия Activity → Subscription: ~23%  
 
-Additional metric: Day 1 retention ~ 32%
+Выявлен значительный отток пользователей на этапе Activity → Subscription, что указывает на потенциальные проблемы ценностного предложения или ценообразования.
 
-## Dashboard Preview
+Рекомендуемые действия: протестировать изменение коммуникации по ценности продукта или внедрение ограниченного бесплатного пробного периода для повышения конверсии в подписку.
 
-The funnel and retention metrics were visualized in Yandex DataLens.
+Дополнительная метрика: удержание на 7 день — ~62%
+
+---
+
+## Предпросмотр дашборда
+
+Визуализация воронки и метрик удержания была выполнена в Yandex DataLens.
 
 WID Dashboard:
 
 <img width="2560" height="1440" alt="24-02-2026 14-05-54" src="https://github.com/user-attachments/assets/86340fdc-70f4-440c-bc37-8ef9065d9757" />
 
-# Included Reports
+---
 
-- Funnel Performance Dashboard  
-  Conversion rates across Visit → Registration → Activity → Subscription
+## Включенные отчёты
 
-- Retention Cohort Analysis  
-  Retention 7 / Retention 30 trends by user cohort
+- Дашборд эффективности воронки  
+  - Конверсия Visit → Registration → Activity → Subscription  
 
-- Acquisition Channel Comparison  
-  Performance analysis across Google Ads, TikTok, Instagram
+- Когортный анализ удержания  
+  - Retention 7 / Retention 30 по когортам  
 
-- Monetization A/B Test Results  
-  Statistical validation of pricing hypothesis
+- Сравнение маркетинговых каналов  
+  - Анализ эффективности Google Ads, TikTok, Instagram  
 
-## A/B Test: Monetization Scenario
+- Анализ монетизации  
+  - Проверка гипотез  
 
-Original implementation: Excel (Z-test for proportions)
+---
 
-SQL layer added for portfolio demonstration:
-- Group aggregation
-- Conversion rate calculation
-- ARPU calculation
+## A/B-тест: сценарий монетизации
+
+Исходная реализация: Excel (z-тест для пропорций)
+
+SQL-слой добавлен для демонстрации портфолио:
+
+- Агрегация по группам  
+- Расчет коэффициента конверсии  
+- Расчет ARPU  
