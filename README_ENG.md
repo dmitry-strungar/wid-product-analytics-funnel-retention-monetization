@@ -40,10 +40,37 @@ The company aims to:
 
 ## Key Insights
 
-- Major user drop-off occurs at the monetization stage
-- User activity frequency strongly correlates with subscription probability
-- TikTok demonstrates higher monetization performance
-- New monetization model shows positive potential but requires larger sample size
+- **Primary conversion bottleneck occurs at the monetization stage (Active → Subscribe ~23%).**  
+  The product effectively converts traffic into registration (~69%) and activation (~95%), which indicates strong initial value perception.  
+  The main revenue leakage happens during the transition to paid subscription.
+
+- **Usage frequency is the strongest predictor of subscription probability.**  
+  Retention 7 (~21%) shows that many users do not return frequently enough to experience free-tier limitations.  
+  Users who engage repeatedly are significantly more likely to convert to Premium.
+
+- **TikTok demonstrates the highest monetization efficiency among acquisition channels.**  
+  While Google Ads drives the largest traffic volume, TikTok generates a higher share of paying users, indicating stronger purchase intent and better audience-product fit.
+
+- **Instagram shows stronger retention quality despite lower monetization volume.**  
+  The channel attracts a more engaged audience, suggesting long-term growth and upsell potential.
+
+- **Mobile is the dominant usage platform and core revenue driver.**  
+  The majority of activity and subscriptions occur on mobile devices, confirming that product optimization should prioritize the mobile experience.
+
+- **The freemium model is structurally sound but dependent on early engagement.**  
+  Current subscription conversion is acceptable for a growing B2C product, but monetization efficiency is highly sensitive to early retention and usage intensity.
+
+- **The new monetization model (A/B test) shows strong economic potential but lacks statistical confirmation.**  
+  Variant B delivered:
+  - +66% relative growth in subscription conversion  
+  - ~+98% ARPU growth  
+  However, the result was not statistically significant (p = 0.138), indicating the need for a larger sample size or longer testing period.
+
+- **Growth potential lies in activation and retention, not pricing changes.**  
+  Key leverage points:
+  - Increasing early usage frequency  
+  - Accelerating exposure to free-tier limits  
+  - Scaling the highest-monetizing acquisition channel (TikTok)
 
 ---
 
