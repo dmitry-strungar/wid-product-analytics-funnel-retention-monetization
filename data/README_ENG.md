@@ -37,6 +37,8 @@ WID Dashboard:
 
 <img width="2560" height="1440" alt="24-02-2026 14-05-54" src="https://github.com/user-attachments/assets/86340fdc-70f4-440c-bc37-8ef9065d9757" />
 
+Ссылка на Дашборд: https://datalens.yandex/xsbara0fp4kyh
+
 # Included Reports
 
 - Funnel Performance Dashboard  
