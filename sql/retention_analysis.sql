@@ -1,5 +1,5 @@
--- Day 1 Retention Analysis
--- Product: WID Digital Wardrobe
+-- Анализ удержания клиентов в первый день
+-- Продукт: Цифровой гардероб WID
 
 
 WITH first_activity AS (
