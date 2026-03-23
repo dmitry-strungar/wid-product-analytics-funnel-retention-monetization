@@ -72,6 +72,21 @@ The company aims to:
   - Accelerating exposure to free-tier limits  
   - Scaling the highest-monetizing acquisition channel (TikTok)
 
+
+---
+## Business Value
+Identifies key drop-off point in the monetization funnel, enabling targeted product improvements  
+Quantifies impact of user activity on subscription conversion, supporting retention strategy  
+Compares acquisition channels and highlights higher-performing platform (TikTok)  
+Evaluates new monetization model and supports data-driven product decisions  
+
+## Stakeholders
+Product Manager  
+Marketing Team  
+Growth Analyst  
+Business Development
+
+
 ---
 
 ## Tech Stack
