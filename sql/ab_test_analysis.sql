@@ -1,35 +1,35 @@
 -- Анализ A/B-тестирования: сценарий монетизации
 -- Продукт: Цифровой гардероб WID
 
-WITH experiment_data AS (
-    SELECT
+with experiment_data as (
+    select
         user_id,
         group_name,      -- 'A' or 'B'
         subscribed,      -- 1 = subscribed
         revenue
-    FROM ab_test_dataset
+    from ab_test_dataset
 ),
 
-aggregated AS (
-    SELECT
+aggregated as (
+    select
         group_name,
-        COUNT(*) AS users,
-        SUM(subscribed) AS subscriptions,
-        SUM(revenue) AS total_revenue,
+        count(*) as users,
+        SUM(subscribed) as subscriptions,
+        SUM(revenue) as total_revenue,
 
         ROUND(
             SUM(subscribed) * 1.0 
-            / NULLIF(COUNT(*), 0), 
-        4) AS conversion_rate,
+            / NULLIF(count(*), 0), 
+        4) as conversion_rate,
 
         ROUND(
             SUM(revenue) * 1.0 
-            / NULLIF(COUNT(*), 0), 
-        2) AS arpu
+            / NULLIF(count(*), 0), 
+        2) as arpu
 
-    FROM experiment_data
-    GROUP BY group_name
+    from experiment_data
+    group by group_name
 )
 
-SELECT *
-FROM aggregated
+select *
+from aggregated
