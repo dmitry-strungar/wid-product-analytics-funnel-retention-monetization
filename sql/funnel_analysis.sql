@@ -7,50 +7,50 @@
 -- коэффициенты конверсии между каждым этапом
 
 
-WITH visits AS (
-    SELECT DISTINCT user_id
-    FROM events
-    WHERE event_name = 'visit'
+with visits as (
+    select distinct user_id
+    from events
+    where event_name = 'visit'
 ),
 
-registrations AS (
-    SELECT DISTINCT user_id
-    FROM users
+registrations as (
+    select distinct user_id
+    from users
 ),
 
-activity AS (
-    SELECT DISTINCT user_id
-    FROM events
-    WHERE event_name = 'activity'
+activity as (
+    select distinct user_id
+    from events
+    where event_name = 'activity'
 ),
 
-subscriptions_stage AS (
-    SELECT DISTINCT user_id
-    FROM subscriptions
+subscriptions_stage as (
+    select distinct user_id
+    from subscriptions
 )
 
-SELECT
-    COUNT(DISTINCT v.user_id) AS visits_users,
-    COUNT(DISTINCT r.user_id) AS registrations_users,
-    COUNT(DISTINCT a.user_id) AS active_users,
-    COUNT(DISTINCT s.user_id) AS subscribed_users,
+select
+    count(distinct v.user_id) as visits_users,
+    count(distinct r.user_id) as registrations_users,
+    count(distinct a.user_id) as active_users,
+    count(distinct s.user_id) as subscribed_users,
 
-    ROUND(
-        COUNT(DISTINCT r.user_id) * 1.0 
-        / NULLIF(COUNT(DISTINCT v.user_id), 0), 
-    3) AS visit_to_registration_rate,
+    round(
+        count(distinct r.user_id) * 1.0 
+        / nullif(count(distinct v.user_id), 0), 
+    3) as visit_to_registration_rate,
 
-    ROUND(
-        COUNT(DISTINCT a.user_id) * 1.0 
-        / NULLIF(COUNT(DISTINCT r.user_id), 0), 
-    3) AS registration_to_activity_rate,
+    round(
+        count(distinct a.user_id) * 1.0 
+        / nullif(count(distinct r.user_id), 0), 
+    3) as registration_to_activity_rate,
 
-    ROUND(
-        COUNT(DISTINCT s.user_id) * 1.0 
-        / NULLIF(COUNT(DISTINCT a.user_id), 0), 
-    3) AS activity_to_subscription_rate
+    round(
+        count(distinct s.user_id) * 1.0 
+        / nullif(count(distinct a.user_id), 0), 
+    3) as activity_to_subscription_rate
 
-FROM visits v
-LEFT JOIN registrations r ON v.user_id = r.user_id
-LEFT JOIN activity a ON v.user_id = a.user_id
-LEFT JOIN subscriptions_stage s ON v.user_id = s.user_id
+from visits v
+left join registrations r on v.user_id = r.user_id
+left join activity a on v.user_id = a.user_id
+left join subscriptions_stage s on v.user_id = s.user_id
