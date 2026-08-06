@@ -6,8 +6,6 @@ The analysis focuses on the effectiveness of the user chain, retention rates, ef
 
 The project is a real product analysis task when a business needs to identify revenue growth opportunities and optimize user conversion.
 
----
-
 ## Business Context
 The company aims to:
 
@@ -15,8 +13,6 @@ The company aims to:
 - Improve user retention
 - Evaluate acquisition channels performance
 - Test a new monetization model
-
----
 
 ## Objectives
 
@@ -26,8 +22,6 @@ The company aims to:
 - Compare marketing channels (Google Ads, TikTok, Instagram)
 - Conduct statistical A/B test (Z-test) for monetization hypothesis
 
----
-
 ## Analytical Approach
 
 - Funnel construction and conversion rate analysis
@@ -35,8 +29,6 @@ The company aims to:
 - Channel segmentation
 - Device-based segmentation
 - Hypothesis testing with statistical significance validation
-
----
 
 ## Key Insights
 
@@ -72,8 +64,6 @@ The company aims to:
   - Accelerating exposure to free-tier limits  
   - Scaling the highest-monetizing acquisition channel (TikTok)
 
-
----
 ## Business Value
 Identifies key drop-off point in the monetization funnel, enabling targeted product improvements  
 Quantifies impact of user activity on subscription conversion, supporting retention strategy  
@@ -85,9 +75,6 @@ Product Manager
 Marketing Team  
 Growth Analyst  
 Business Development
-
-
----
 
 ## Stack of AI tools
 During the work on the project, AI tools were used to speed up routine tasks and improve the efficiency of analytics.:
@@ -104,8 +91,6 @@ DeepSeek was used for:
 
 All key calculations, data interpretation, and formulation of business recommendations were performed independently. AI was used as a tool to speed up auxiliary tasks and test hypotheses, but it did not replace analytical thinking.
 
----
-
 ## Tech Stack
 
 - Excel
@@ -113,8 +98,6 @@ All key calculations, data interpretation, and formulation of business recommend
 - Product Analytics
 - A/B Testing
 - Statistical Analysis
-
----
 
 ## Skills Demonstrated
 
