@@ -89,6 +89,23 @@ Business Development
 
 ---
 
+## Stack of AI tools
+During the work on the project, AI tools were used to speed up routine tasks and improve the efficiency of analytics.:
+
+ChatGPT was used for:
+1) Rapid prototyping of complex formulas in Excel when calculating engagement metrics and cohort analysis
+2) Generating drafts of SQL queries to test hypotheses on user behavior (including channel segmentation)
+3) Formulation of primary hypotheses and structuring of analytical conclusions
+
+DeepSeek was used for:
+1) Refinement and refinement of SQL queries, checking the logic of calculating indicators (ARPU, conversion, retention)
+2) Checking the statistical significance of the A/B test and the interpretation of the p-value
+3) Final verification of the code and calculations before forming conclusions for the team
+
+All key calculations, data interpretation, and formulation of business recommendations were performed independently. AI was used as a tool to speed up auxiliary tasks and test hypotheses, but it did not replace analytical thinking.
+
+---
+
 ## Tech Stack
 
 - Excel
